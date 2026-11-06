@@ -2,8 +2,8 @@ body {
     background-color: #1A162B;
     color: white;
     font-family:  Calibri;
-    text-align:center
-}
+    background-color: black;
+
 .menu {
     margin: 150px auto;
     padding: 40px;
@@ -37,4 +37,3 @@ a {
     text-decoration: none;
     border-radius: 30px;
 }
-    
