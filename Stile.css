@@ -1,43 +1,51 @@
 body {
-  margin: 0;
-  color: #201e1b;
-  background-color: #ffffff;
-}
-
-.intestazione {
-  background-color: #0b6e4f;
-  color: #ffffff;
-  text-align: center;
-  padding: 30px;
+    background-color: #1A162B;
+    color: white;
+    font-family:  Calibri;
+    text-align: center;
 }
 
 .menu {
-  background-color: #e4f0ea;
-  text-align: center;
-  padding: 10px;
+    margin: 150px auto;
+    padding: 40px;
 }
 
-.voce {
-  display: inline-block;
-  margin: 5px 12px;
-  font-weight: bold;
+h1 {
+    color: #E0E0E0;
+    font-size: 85px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top:80px;
 }
 
-.contenuto {
-  margin: 20px;
-  padding: 20px;
+h2 {
+    color: #E0E0E0;
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 25px;
 }
 
-.evidenziato {
-  background-color: #fbf0ce;
-  border-left: 5px solid #e2a400;
-  padding: 10px;
+p {
+    color: silver;
+    font-size: 18px;
+    margin-bottom: 45px;
 }
 
-.piede {
-  background-color: #201e1b;
-  color: #ffffff;
-  text-align: center;
-  font-size: 14px;
-  padding: 15px;
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+a {
+    display: block;
+    width: 250px;
+    padding: 15px;
+    margin: 10px;
+    background-color: limegreen;
+    color: black;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    } 
