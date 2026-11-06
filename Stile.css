@@ -3,12 +3,6 @@ body {
     color: white;
     font-family:  Calibri;
     background-color: black;
-<<<<<<< HEAD
-
-=======
-    text-align:center
-}
->>>>>>> 8d781fd94fea4a51f7521d82afae6bb7e88b6a02
 .menu {
     margin: 150px auto;
     padding: 40px;
@@ -41,8 +35,4 @@ a {
     font-weight: bold;
     text-decoration: none;
     border-radius: 30px;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 8d781fd94fea4a51f7521d82afae6bb7e88b6a02
