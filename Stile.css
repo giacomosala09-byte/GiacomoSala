@@ -1,23 +1,44 @@
-body {
-    background-color: #1A162B;
-    color: white;
-    font-family:  Calibri;
+body{
     background-color: black;
-.menu {
-    margin: 150px auto;
+    color: white;
+    font-family: Calibri;
+    text-align: center;
+    margin: 0;
+}
+.menu{
+    max-width: 800px;
+    margin: 80px auto;
     padding: 40px;
 }
-h1 {
-    color: #E0E0E0;
+h1{
+    color: lightgray;
     font-size: 85px;
     font-weight: bold;
     text-transform: uppercase;
-    margin-top:80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-p {
+h2{
+    color: limegreen;
+    margin-top: 30px;
+}
+h3{
+    color: limegreen;
+    margin-top: 30px;
+}
+p{
     color: silver;
     font-size: 18px;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+ol {
+    color: silver;
+    font-size: 18px;
+    text-align: left;
+    max-width: 500px;
+    margin: 0 auto 35px auto;
+    line-height: 1.8;
 }
 .links {
     display: flex;
@@ -33,6 +54,5 @@ a {
     color: black;
     font-size: 17px;
     font-weight: bold;
-    text-decoration: none;
     border-radius: 30px;
 }
